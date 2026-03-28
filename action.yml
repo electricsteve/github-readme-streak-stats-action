@@ -1,4 +1,4 @@
-name: "GitHub Streak Card Generator"
+name: "Streak Card Generator Width"
 description: "Generates an animated SVG GitHub streak card with themes showing contributions and streaks."
 inputs:
   USERNAME:
