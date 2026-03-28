@@ -147,7 +147,7 @@ export function renderSVGWrapper(
     : "";
 
   return `<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
-      style='isolation: isolate' viewBox='0 0 ${dimensions.width} ${dimensions.height}' direction='${direction}'>
+      style='isolation: isolate' viewBox='0 0 ${dimensions.width} ${dimensions.height}' width='${dimensions.width}px' height='${dimensions.height}px' direction='${direction}'>
   ${animationStyles}
   <defs>
     <clipPath id='outer_rectangle'>
